@@ -1,0 +1,60 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-image: url(../imagens/bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ccc;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.div-title {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 16px 0;
+}
+
+.div-title__title {
+    font-size: 44px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 5px 12px black;
+    margin-bottom: 0;
+}
+
+.div-title__desc {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 16px;
+    border-bottom: 2px solid white;
+}
+
+.section-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    padding-top: 16px;
+}
+
+.section-card__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-card__img {
+    display: block;
+}
+
+.section-card__desc {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 0;
+    padding: 8px;
+    color: white;
+}
